@@ -1,7 +1,7 @@
 # World Models Implementation In Chainer
 This is a fairly complete implementation, in [Chainer](https://chainer.org), of the World Models framework described by David Ha and Jürgen Schmidhuber: https://arxiv.org/abs/1803.10122
 
-This project was created as part of my MSc Artificial Intelligence dissertation at the University of Edinburgh. The scope of my research is model-based learning. Particularly, investigating the use of external memory available to a RNN to learn complex models. And thus I will be extending this framework accordingly, though these extensions are not present in this repository.
+This project was created as part of my MSc Artificial Intelligence dissertation under the supervision of [Subramanian Ramamoorthy](http://homepages.inf.ed.ac.uk/sramamoo/) at the University of Edinburgh. The scope of my research is model-based learning. Particularly, investigating the use of external memory available to a RNN to learn complex models. And thus I will be extending this framework accordingly, though these extensions are not present in this repository.
 
 > ![](asset/CarRacing-v0_rollout.gif) My best trained World Models agent playing [CarRacing-v0](https://gym.openai.com/envs/CarRacing-v0/).
 
@@ -61,7 +61,7 @@ Task is considered solved if the average score over 100 consecutive rollouts is 
 Task is considered solved if the average score over 100 consecutive rollouts is greater than 750.
  
 * **Random agent**: Mean score 278 +/- 100 over 100 rollouts
-* **Trained agent**: Mean score 577 +/- 315 over 100 rollouts*  
+* **Trained agent**: Mean score 680 +/- 411 over 100 rollouts*  
 **Ended controller training early due to time constraints--will run longer and update final results*
 
 > ![](asset/DoomTakeCover_dream_rollout.gif) An agent roaming around in its dream.
