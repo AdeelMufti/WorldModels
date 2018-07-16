@@ -1,7 +1,7 @@
 # World Models Implementation In Chainer
 This is a fairly complete implementation, in [Chainer](https://chainer.org), of the World Models framework described by David Ha and Jürgen Schmidhuber: https://arxiv.org/abs/1803.10122
 
-This project was created as part of my MSc Artificial Intelligence dissertation at the University of Edinburgh, under the supervision of [Subramanian Ramamoorthy](http://homepages.inf.ed.ac.uk/sramamoo/), with guidance from fellow PhD student [Svetlin Penkov](http://rad.inf.ed.ac.uk/people/penkov.html). The scope of my research is model-based learning. Particularly, investigating the use of external memory available to a RNN to learn complex models. And thus I will be extending this framework accordingly, though these extensions are not present in this repository.
+This project was created as part of my MSc Artificial Intelligence dissertation at the University of Edinburgh, under the supervision of [Subramanian Ramamoorthy](http://homepages.inf.ed.ac.uk/sramamoo/), with guidance from fellow PhD student [Svetlin Penkov](https://www.linkedin.com/in/svpenkov/). The scope of my research is model-based learning. Particularly, investigating the use of external memory available to a RNN to learn complex models. And thus I will be extending this framework accordingly, though these extensions are not present in this repository.
 
 > ![](asset/CarRacing-v0_rollout.gif) My best trained World Models agent playing [CarRacing-v0](https://gym.openai.com/envs/CarRacing-v0/).
 
